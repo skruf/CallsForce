@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="remoteAccessConsumerKey">3MVG95G8WxiwV5PsuH6VI0W.f3d4N6mgST6RB8K9JGxOFclxym2CItfDSthSPvjOBv7EHfZeJKBQVt0oaTDKG</string>
+    <string name="oauthRedirectURI">callsforce:///mobilesdk/detect/oauth/done</string>
+    <string-array name="oauthScopes">
+        <item>api</item>
+        <item>id</item>
+        <item>profile</item>
+        <item>email</item>
+        <item>address</item>
+        <item>phone</item>
+        <item>openid</item>
+        <item>refresh_token</item>
+        <item>offline_access</item>
+        <item>web</item>
+    </string-array>
+    <string name="androidPushNotificationClientId"></string>
+</resources>

@@ -1,0 +1,53 @@
+{
+  "name": "CallsForce",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start:reset": "watchman watch-del-all ; rm -rf /tmp/metro-bundler-cache-* ; rm -rf /tmp/haste-map-react-native-packager-* ; react-native start --reset-cache",
+    "dev:android": "react-native run-android",
+    "dev:ios": "react-native run-ios",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "sdkDependencies": {
+    "SalesforceMobileSDK-Android": "https://github.com/forcedotcom/SalesforceMobileSDK-Android.git#v8.0.0",
+    "SalesforceMobileSDK-iOS": "https://github.com/forcedotcom/SalesforceMobileSDK-iOS.git#v8.0.0"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.7.1",
+    "acorn": "^6.0.0",
+    "eslint": "^5.0.0",
+    "react": "16.9.0",
+    "react-native": "0.61.3",
+    "react-native-background-timer": "^2.1.1",
+    "react-native-callkeep": "^3.0.8",
+    "react-native-collapsible": "^1.5.1",
+    "react-native-elements": "^1.2.7",
+    "react-native-force": "git+https://github.com/forcedotcom/SalesforceMobileSDK-ReactNative.git#v8.0.0",
+    "react-native-gesture-handler": "^1.5.2",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-screens": "^2.0.0-alpha.19",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.10.3",
+    "react-navigation-tabs": "^2.6.2",
+    "reactotron-react-native": "^4.0.2",
+    "styled-components": "^4.4.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/runtime": "^7.3.1",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "faker": "^4.1.0",
+    "jest": "^24.1.0",
+    "jetifier": "^1.6.5",
+    "lodash.debounce": "^4.0.8",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.9.0",
+    "rimraf": "2.6.2"
+  }
+}
